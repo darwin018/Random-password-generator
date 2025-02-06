@@ -1,6 +1,6 @@
 //generate random password using for loop
 document.getElementById("btn").addEventListener("click", function() {
-	var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()_+?<>{}[]:";
+	var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz@#$&*";
 	var passwordLength = 10;
 	var password = "";
 	for (var i = 0; i < passwordLength; i++) {
